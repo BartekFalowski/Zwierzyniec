@@ -16,7 +16,7 @@
 
 
 
-        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Dodaj Konduktora</h2>
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Dodaj Weterynarza</h2>
         <div class="divider-custom">
             <div class="divider-custom-line"></div>
             <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
@@ -52,14 +52,14 @@
 
 
                 <br />
-                <button class="btn btn-primary btn-xl" type="submit">Dodaj Konduktora</button>
+                <button class="btn btn-primary btn-xl" type="submit">Dodaj Weterynarza</button>
             </form>
         </div>
     </div>
 
 <div class="container">
     <div class="masthead">
-        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Lista Konduktorów</h2>
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Lista Weterynarzy</h2>
         <div class="divider-custom">
             <div class="divider-custom-line"></div>
             <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
