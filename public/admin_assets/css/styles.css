@@ -2182,7 +2182,7 @@ progress {
 .form-control:focus {
   color: #212529;
   background-color: #fff;
-  border-color: #8ddece;
+  border-color: radial-gradient(circle at 53.6% 54.29%, #cbb61e 0, #d4ac0e 8.33%, #dda000 16.67%, #e49300 25%, #ea8400 33.33%, #ef7300 41.67%, #f25f08 50%, #f44717 58.33%, #f62723 66.67%, #f70030 75%, #f6003d 83.33%, #f5004b 91.67%, #f1005a 100%);
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(26, 188, 156, 0.25);
 }
@@ -7394,7 +7394,7 @@ textarea.form-control-lg {
 }
 
 .bg-secondary {
-  background-color: #2c3e50 !important;
+  background-color: #690F14 !important;
 }
 
 .bg-success {
@@ -7406,7 +7406,7 @@ textarea.form-control-lg {
 }
 
 .bg-warning {
-  background-color: #ffc107 !important;
+  background-color: #D9594F !important;
 }
 
 .bg-danger {
