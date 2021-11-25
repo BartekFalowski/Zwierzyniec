@@ -27,7 +27,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item"><a class="nav-link" href="#about">Informacje</a></li>
-                <li class="nav-item"><a class="nav-link" href="#projects">Dworce</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Nasze Usługi</a></li>
                 <li class="nav-item"><a class="nav-link" href="#signup">Kontakt</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{ route('login') }}">Logowanie</a></li>
             </ul>
@@ -39,9 +39,9 @@
     <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
         <div class="d-flex justify-content-center">
             <div class="text-center">
-                <h1 class="mx-auto my-0 text-uppercase">POLSKIE KOLEJE POCIĄGOWE</h1>
-                <h2 class="text-white-50 mx-auto mt-2 mb-5">Szybciej i bezpieczniej po polskich torach <p></p>- PKP Polskie Linie Kolejowe S.A</h2>
-                <a class="btn btn-primary" href="#about">Zapraszamy w podróż</a>
+                <h1 class="mx-auto my-0 text-uppercase">Mobilna karta weterynaryjna</h1>
+                <h2 class="text-white-50 mx-auto mt-2 mb-5">Nie jem = jestem chory! <p></p> Zabierz mnie do lekarza</h2>
+                <a class="btn btn-primary" href="#about">dowiedz sie cos wiecej</a>
             </div>
         </div>
     </div>
@@ -55,9 +55,16 @@
             <div class="col-lg-8">
                 <h1 class="text-white mb-4">Informacje</h1>
                 <p class="text-white-50">
-                    W celu wyświetlenia listy relacji dostępnych na naszej stronie, bądz chcąc zakupić bilet, prosimy o zalogowanie/założenie konta  na stronie. Aby zarejestrować się na stronie prosimy przejść do zakładni Logowanie na pasku nawigacyjnym.
-
+                    NASZ ZESPÓŁ
+                    ...to obecnie dziewięć osób, cztery osoby personelu pomocniczego oraz pięciu lekarzy weterynarii, w tym jeden z tytułem doktorskim i dwóch z tytułami specjalistów, to nasz obecny skład.
                 </p>
+                <p class="text-white-50">
+                    Kładziemy ogromny nacisk na swoje umiejętności zawodowe i nieustanne pogłębianie wiedzy. Standardem w naszej pracy jest  ciągłe podnoszenie naszych umiejętności przez naszych lekarzy i personel pomocniczy poprzez  uczestnictwo w kursach specjalistcznych, sympozjach i kongresach naukowych.
+                </p>
+                <p class="text-white-50">
+                    W razie potrzeby współpracujemy z wysokiej klasy specjalistycznymi ośrodkami, które konsultują kierowanych przez nas pacjentów. Chcemy mieć zawsze pewność, że dołożyliśmy wszelkich starań by pomóc naszym czworonożnym podopiecznym.
+                </p>
+
             </div>
         </div>
     </div>
@@ -70,23 +77,23 @@
     <div class="container px-4 px-lg-5">
         <!-- Featured Project Row-->
         <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-            <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="/assets/img/Warszawa.jpg" alt="..." /></div>
+            <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="/assets/img/zdjecie1.jpg" alt="..." /></div>
             <div class="col-xl-4 col-lg-5">
                 <div class="featured-text text-center text-lg-left">
-                    <h4>Nasze dworce</h4>
-                    <p class="text-black-50 mb-0">Poniżej wykaz należących do PKP S.A. dworców kolejowych wraz z najważniejszymi informacjami: </p>
+                    <h2>Nasze Usługi</h2>
+                    <p class="text-black-50 mb-0">W NASZEJ LECZNICY ŚWIADCZYMY USŁUGI W ZAKRESIE: </p>
                 </div>
             </div>
         </div>
         <!-- Project One Row-->
         <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-            <div class="col-lg-6"><img class="img-fluid" src="assets/img/Kraków.jpg" alt="..." /></div>
+            <div class="col-lg-6"><img class="img-fluid" src="assets/img/zdjecie2.jpg" alt="..." /></div>
             <div class="col-lg-6">
                 <div class="bg-black text-center h-100 project">
                     <div class="d-flex h-100">
                         <div class="project-text w-100 my-auto text-center text-lg-left">
-                            <h4 class="text-white">Kraków</h4>
-                            <p class="mb-0 text-white-50">Adres: ul. Pawia 5a, 31-154 Kraków, Współrzędne 50.0675, 19.946111</p>
+                            <h4 class="text-white">PEŁNA PROFILAKTYKA</h4>
+                            <p class="mb-0 text-white-50"> w tym szczepienia ochronne, odrobaczanie,zwalczanie pasożytów zewnętrznych</p>
                             <hr class="d-none d-lg-block mb-0 ms-0" />
                         </div>
                     </div>
@@ -95,13 +102,13 @@
         </div>
         <!-- Project Two Row-->
         <div class="row gx-0 justify-content-center">
-            <div class="col-lg-6"><img class="img-fluid" src="assets/img/Bydgoszcz.jpg" alt="..." /></div>
+            <div class="col-lg-6"><img class="img-fluid" src="assets/img/zdjecie3.jpg" alt="..." /></div>
             <div class="col-lg-6 order-lg-first">
                 <div class="bg-black text-center h-100 project">
                     <div class="d-flex h-100">
                         <div class="project-text w-100 my-auto text-center text-lg-right">
-                            <h4 class="text-white">Bydgoszcz</h4>
-                            <p class="mb-0 text-white-50">Adres:  ul. Zygmunta Augusta 7, 85-082 Bydgoszcz, Współrzędne 53.134444N, 17.99E</p>
+                            <h4 class="text-white">LECZENIE CHORÓB</h4>
+                            <p class="mb-0 text-white-50"> małych zwierząt w pełnym zakresie</p>
                             <hr class="d-none d-lg-block mb-0 me-0" />
                         </div>
                     </div>
@@ -109,13 +116,13 @@
             </div>
         </div>
         <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-            <div class="col-lg-6"><img class="img-fluid" src="assets/img/Katowice.jpg" alt="..." /></div>
+            <div class="col-lg-6"><img class="img-fluid" src="assets/img/Zdjecie6.jpg" alt="..." /></div>
             <div class="col-lg-6">
                 <div class="bg-black text-center h-100 project">
                     <div class="d-flex h-100">
                         <div class="project-text w-100 my-auto text-center text-lg-left">
-                            <h4 class="text-white">Katowice</h4>
-                            <p class="mb-0 text-white-50">Adres:  40-098 Katowice, Plac Marii i Lecha Kaczyńskich 2, Współrzędne 5025812 1901663</p>
+                            <h4 class="text-white">PROFILAKTYKA, DIAGNOSTYKA, LECZENIE GRYZONI I KRÓLIKÓW</h4>
+                            <p class="mb-0 text-white-50">sterylizacja,kastracja,korekcja uzębienia,zabiegi chirurgiczne</p>
                             <hr class="d-none d-lg-block mb-0 ms-0" />
                         </div>
                     </div>
@@ -124,13 +131,13 @@
         </div>
         <!-- Project Two Row-->
         <div class="row gx-0 justify-content-center">
-            <div class="col-lg-6"><img class="img-fluid" src="assets/img/Czestochowa.jpg" alt="..." /></div>
+            <div class="col-lg-6"><img class="img-fluid" src="assets/img/zdjecie5.jpg" alt="..." /></div>
             <div class="col-lg-6 order-lg-first">
                 <div class="bg-black text-center h-100 project">
                     <div class="d-flex h-100">
                         <div class="project-text w-100 my-auto text-center text-lg-right">
-                            <h4 class="text-white">Częstochowa</h4>
-                            <p class="mb-0 text-white-50">Adres: 42-200 Częstochowa, Aleja Wolności 21, współrzędne: 50.257594, 19.017209</p>
+                            <h4 class="text-white">OKULISTYKA WETERYNARYJNA</h4>
+                            <p class="mb-0 text-white-50">badanie okulistyczne z tonometrią, oftalmoskopią bezpośrednią i pośrednią oraz biomikroskopią</p>
                             <hr class="d-none d-lg-block mb-0 me-0" />
                         </div>
                     </div>
@@ -138,42 +145,13 @@
             </div>
         </div>
         <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-            <div class="col-lg-6"><img class="img-fluid" src="assets/img/Gdynia.jpg" alt="..." /></div>
+            <div class="col-lg-6"><img class="img-fluid" src="assets/img/zdjecie7.jpg" alt="..." /></div>
             <div class="col-lg-6">
                 <div class="bg-black text-center h-100 project">
                     <div class="d-flex h-100">
                         <div class="project-text w-100 my-auto text-center text-lg-left">
-                            <h4 class="text-white">Gdynia</h4>
-                            <p class="mb-0 text-white-50">Adres: Plac Konstytucji 1, 81-354 Gdynia, Współrzędne 5452148 1852981</p>
-                            <hr class="d-none d-lg-block mb-0 ms-0" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Project Two Row-->
-        <div class="row gx-0 justify-content-center">
-            <div class="col-lg-6"><img class="img-fluid" src="assets/img/Gdańsk.jpg" alt="..." /></div>
-            <div class="col-lg-6 order-lg-first">
-                <div class="bg-black text-center h-100 project">
-                    <div class="d-flex h-100">
-                        <div class="project-text w-100 my-auto text-center text-lg-right">
-                            <h4 class="text-white">Gdańsk</h4>
-                            <p class="mb-0 text-white-50">Adres: Plac Konstytucji 1, 81-354 Gdynia, Współrzędne 5452148 1852981</p>
-                            <hr class="d-none d-lg-block mb-0 me-0" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-            <div class="col-lg-6"><img class="img-fluid" src="assets/img/Poznań.jpg" alt="..." /></div>
-            <div class="col-lg-6">
-                <div class="bg-black text-center h-100 project">
-                    <div class="d-flex h-100">
-                        <div class="project-text w-100 my-auto text-center text-lg-left">
-                            <h4 class="text-white">Poznań</h4>
-                            <p class="mb-0 text-white-50">Adres:  ul. Dworcowa 2, 61-801 Poznań, Współrzędne 5240277 1691213</p>
+                            <h4 class="text-white">STOMATOLOGIA</h4>
+                            <p class="mb-0 text-white-50">cyfrowe RTG stomatologiczne, dla psów, kotów, gryzoni.</p>
                             <hr class="d-none d-lg-block mb-0 ms-0" />
                         </div>
                     </div>
@@ -199,9 +177,9 @@
                 <div class="card py-4 h-100">
                     <div class="card-body text-center">
                         <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                        <h4 class="text-uppercase m-0">Address</h4>
+                        <h4 class="text-uppercase m-0">Adres</h4>
                         <hr class="my-4 mx-auto" />
-                        <div class="small text-black-50">Al. Jerozolimskie 142A, 02-305 Warszawa</div>
+                        <div class="small text-black-50">Ul. Nawojowska 3 33-330 Nowy Sącz</div>
                     </div>
                 </div>
             </div>
@@ -211,7 +189,7 @@
                         <i class="fas fa-envelope text-primary mb-2"></i>
                         <h4 class="text-uppercase m-0">Email</h4>
                         <hr class="my-4 mx-auto" />
-                        <div class="small text-black-50">pomocprm@pkp.pl</div>
+                        <div class="small text-black-50">zwierzyniec@gmail.pl</div>
                     </div>
                 </div>
             </div>
@@ -222,11 +200,9 @@
                         <h4 class="text-uppercase m-0">Telefon kontaktowy</h4>
                         <hr class="my-4 mx-auto" />
                         <div class="small text-black-50">Infolinia</div>
-                        <div class="small text-black-50">703-200-200</div>
-                        <div class="small text-black-50">Infolinia dla pasażerów z niepełnosprawnościami</div>
-                        <div class="small text-black-50">+48 42 205 45 31 </div>
+                        <div class="small text-black-50">704-400-400</div>
                         <div class="small text-black-50">Infolinia dla abonentów sieci zagranicznych</div>
-                        <div class="small text-black-50"> +48 22 391 97 57 </div>
+                        <div class="small text-black-50"> +48 22 393 62 62 </div>
 
                     </div>
                 </div>
@@ -239,7 +215,7 @@
     </div>
 </section>
 <!-- Footer-->
-<footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; PKP S.A 2021</div></footer>
+<footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; satino S.A 2021</div></footer>
 <!-- Bootstrap core JS-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
 <!-- Core theme JS-->
