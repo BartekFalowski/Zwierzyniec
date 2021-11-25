@@ -6,7 +6,7 @@
     <div class="form-v8-content">
         <a href="/">
             <div class="form-left">
-                <img src="login_assets/foto/form-v8.jpg" alt="form">
+                <img src="login_assets/foto/form-v8.png" alt="form">
             </div>
         </a>
         <div class="form-right">
@@ -90,7 +90,7 @@
 
                 <div class="form-group row mb-0">
                     <div class="col-md-6 offset-md-4">
-                        <button type="submit" class="btn btn-primary">
+                        <button type="submit" class="btn btn-warning">
                             {{ __('Zarejestruj') }}
                         </button>
                     </div>
@@ -116,7 +116,7 @@
                     </div>
                     <div class="form-group row mb-0">
                         <div class="col-md-6 offset-md-4">
-                            <button type="submit" class="btn btn-primary">
+                            <button type="submit" class="btn btn-warning">
                                 {{ __('Zaloguj') }}
                             </button>
                         </div>
