@@ -14,7 +14,7 @@
         @endif
 
     <div class="masthead">
-        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Cennik</h2>
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Twoje Bilety</h2>
         <div class="divider-custom">
             <div class="divider-custom-line"></div>
             <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
@@ -34,8 +34,8 @@
         </form>
         <thead class="thead-dark">
         <tr>
-            <th class="table-success" scope="col">Usłgua</th>
-            <th class="table-success" scope="col">Cena</th>
+            <th class="table-success" scope="col">Nr. Biletu</th>
+            <th class="table-success" scope="col">Skąd</th>
             <th class="table-success" scope="col">Dokąd</th>
             <th class="table-success" scope="col">Data</th>
             <th class="table-success" scope="col">INFO</th>

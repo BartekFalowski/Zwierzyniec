@@ -36,6 +36,7 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/home/konto/edytuj/{id}', [App\Http\Controllers\KontoController::class, 'edit'])->name('users.konto');
 Route::put('/home/konto/zamien/{id}', [App\Http\Controllers\KontoController::class, 'update'])->name('user.update');
 Route::get('/relacje/list', [App\Http\Controllers\ZnajdzRelacjeController::class, 'index'])->name('user.znajdz_relacje');
+Route::get('/cennik/list', [App\Http\Controllers\ZnajdzCennikController::class, 'index'])->name('user.znajdz_cennik');
 Route::get('/home/Bilet/Lista', [App\Http\Controllers\Bilet_listaController::class, 'index'])->name('user.lista_bilet');
 
 
@@ -66,6 +67,12 @@ Auth::routes();
         Route::get('/relacje/list/edytuj/{id}', [App\Http\Controllers\RelacjaController::class, 'edit'])->name('relacje.edit');
         Route::put('/relacje/list/zmien/{id}', [App\Http\Controllers\RelacjaController::class, 'update'])->name('relacje.update');
         Route::get('/relacje/list/usun/{id}', [App\Http\Controllers\RelacjaController::class, 'delete'])->name('relacje.delete');
+
+        Route::get('/cennik/list', [App\Http\Controllers\CennikController::class, 'index'])->name('cennik.cennik');
+        Route::post('/cennik/list/zapisz', [App\Http\Controllers\CennikController::class, 'store'])->name('cennik.store');
+        Route::get('/cennik/list/edytuj/{id}', [App\Http\Controllers\CennikController::class, 'edit'])->name('cennik.edit');
+        Route::put('/cennik/list/zmien/{id}', [App\Http\Controllers\CennikController::class, 'update'])->name('cennik.update');
+        Route::get('/cennik/list/usun/{id}', [App\Http\Controllers\CennikController::class, 'delete'])->name('cennik.delete');
 
 
         Route::get('/użytkownicy/list', [App\Http\Controllers\UserController::class, 'index'])->name('users.index');
