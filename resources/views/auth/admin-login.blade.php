@@ -15,7 +15,7 @@
                     <button class="tablinks" onclick="openCity(event, 'sign-in')" id="defaultOpen" >Zaloguj</button>
                 </div>
             </div>
-            <form class="form-detail" action="{{ route('admin.login.submit') }}" method="POST">
+            <form class="form-detail" action="{{ route('admin.login.submit') }}" method="POST"> // aa
                 @csrf
                 <div class="tabcontent" id="sign-in">
                     <div class="form-row">
