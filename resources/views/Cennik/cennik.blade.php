@@ -55,14 +55,6 @@
 
     <div class="container">
     <table class=" table">
-        <form class="form-inline">
-            <div class="input-group">
-                <div class="input-group-prepend">
-                    <span class="input-group-text" id="basic-addon1">@</span>
-                </div>
-                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
-            </div>
-        </form>
         <thead class="thead-dark">
         <tr>
             <th class="table-success" scope="col">#</th>
@@ -90,7 +82,7 @@
     </div>
 
     <div class="copyright py-4 text-center text-white">
-        <div class="container"><small>Copyright &copy; PKP S.A 2021</small></div>
+        <div class="container"><small>Copyright &copy; Satino S.A 2021</small></div>
     </div>
 
 
