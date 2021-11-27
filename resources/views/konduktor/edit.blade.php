@@ -47,7 +47,7 @@
 
 
                 <br />
-                <button class="btn btn-primary btn-xl" type="submit">Zapisz Konduktora</button>
+                <button class="btn btn-primary btn-xl" type="submit">Zapisz Weterynarza</button>
             </form>
         </div>
     </div>

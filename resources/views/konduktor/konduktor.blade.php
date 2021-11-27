@@ -103,7 +103,7 @@
 
 
     <div class="copyright py-4 text-center text-white">
-        <div class="container"><small>Copyright &copy; PKP S.A 2021</small></div>
+        <div class="container"><small>Copyright &copy; ZWIERZYNIEC S.A 2021</small></div>
     </div>
 
 

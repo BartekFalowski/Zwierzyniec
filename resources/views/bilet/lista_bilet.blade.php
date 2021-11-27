@@ -35,10 +35,7 @@
         <thead class="thead-dark">
         <tr>
             <th class="table-success" scope="col">Nr. Biletu</th>
-            <th class="table-success" scope="col">Skąd</th>
-            <th class="table-success" scope="col">Dokąd</th>
-            <th class="table-success" scope="col">Data</th>
-            <th class="table-success" scope="col">INFO</th>
+
 
 
         </tr>
