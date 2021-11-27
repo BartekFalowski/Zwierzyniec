@@ -71,15 +71,15 @@
         </tr>
         </thead>
         <tbody>
-        @foreach ($cennik as $cennik)
+        @foreach ($cenniks as $cennik)
             <tr>
                 <th class="bg-secondary text-white" scope="row">{{$cennik->id}}</th>
                 <td>{{$cennik->cena}}</td>
                 <td>{{$cennik->usluga}}</td>
                 <td class="bg-secondary">
                     <div class="btn-group" role="group" aria-label="Basic example">
-                    <a href="{{route('relacje.delete', ['id'=>$relacje->id]) }}" role="button" class="btn btn-danger">X</a>
-                    <a href="{{ route('relacje.edit', ['id'=>$relacje->id]) }}" class="btn btn-success">Edytuj</a>
+                    <a href="{{route('cennik.delete', ['id'=>$cennik->id]) }}" role="button" class="btn btn-danger">X</a>
+                    <a href="{{ route('cennik.edit', ['id'=>$cennik->id]) }}" class="btn btn-success">Edytuj</a>
                     </div>
                 </td>
             </tr>

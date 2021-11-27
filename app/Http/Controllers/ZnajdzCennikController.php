@@ -17,7 +17,7 @@ class ZnajdzCennikController extends Controller
     public function index()
     {
         return view('users.znajdz_cennik',[
-            'cennik' => Cennik::all()
+            'cenniks' => Cennik::all()
         ]);
     }
 

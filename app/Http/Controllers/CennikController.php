@@ -17,7 +17,7 @@ class CennikController extends Controller
     public function index()
     {
         return view('cennik.cennik',[
-            'cennik' => Cennik::all()
+            'cenniks' => Cennik::all()
         ]);
     }
 
@@ -44,7 +44,7 @@ class CennikController extends Controller
         $cennik->cena = $request->cena;
         $cennik->usluga = $request->usluga;
 
-        $relacje->save();
+        $cennik->save();
 
         return redirect()->route('cennik.cennik')->with('message', 'Usługa została dodana pomyślnie');
     }
