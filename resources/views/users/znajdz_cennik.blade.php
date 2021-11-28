@@ -19,17 +19,18 @@
             <th class="table-success" scope="col">#</th>
             <th class="table-success" scope="col">Cena</th>
             <th class="table-success" scope="col">Usługa</th>
+            <th class="table-success" scope="col">Akcje</th>
         </tr>
         </thead>
         <tbody>
         @foreach ($cenniks as $cennik)
             <tr>
-                <th class="bg-secondary text-white" scope="row">{{$cennik->id}}</th>
+                <th class="bg-light text-black" scope="row">{{$cennik->id}}</th>
                 <td>{{$cennik->cena}}</td>
                 <td>{{$cennik->usluga}}</td>
-                <td class="bg-secondary">
+                <td class="bg-light">
                     <div class="btn-group" role="group" aria-label="Basic example">
-                    <a href="{" class="btn btn-success">DODAJ USŁUGĘ</a>
+                    <a href="" class="btn btn-success">DODAJ USŁUGĘ</a>
                     </div>
                 </td>
             </tr>
@@ -40,7 +41,7 @@
     </div>
 
     <div class="copyright py-4 text-center text-white">
-        <div class="container"><small>Copyright &copy; PKP S.A 2021</small></div>
+        <div class="container"><small>Copyright &copy; Satino S.A 2021</small></div>
     </div>
 
 

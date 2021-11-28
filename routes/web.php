@@ -35,9 +35,8 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/home/konto/edytuj/{id}', [App\Http\Controllers\KontoController::class, 'edit'])->name('users.konto');
 Route::put('/home/konto/zamien/{id}', [App\Http\Controllers\KontoController::class, 'update'])->name('user.update');
-Route::get('/relacje/list', [App\Http\Controllers\ZnajdzRelacjeController::class, 'index'])->name('user.znajdz_relacje');
 Route::get('/cennik/list', [App\Http\Controllers\ZnajdzCennikController::class, 'index'])->name('user.znajdz_cennik');
-Route::get('/home/Bilet/Lista', [App\Http\Controllers\Bilet_listaController::class, 'index'])->name('user.lista_bilet');
+
 
 
 
@@ -55,19 +54,6 @@ Auth::routes();
 
 
 
-        Route::get('/konduktor/list', [App\Http\Controllers\KonduktorController::class, 'index'])->name('konduktor.konduktor');
-        Route::post('/konduktor/list/zapisz', [App\Http\Controllers\KonduktorController::class, 'store'])->name('konduktor.store');
-        Route::get('/konduktor/list/edytuj/{id}', [App\Http\Controllers\KonduktorController::class, 'edit'])->name('konduktor.edit');
-        Route::put('/konduktor/list/zmien/{id}', [App\Http\Controllers\KonduktorController::class, 'update'])->name('konduktor.update');
-        Route::get('/konduktor/list/usun/{id}', [App\Http\Controllers\KonduktorController::class, 'delete'])->name('konduktor.delete');
-
-
-        Route::get('/relacje/list', [App\Http\Controllers\RelacjaController::class, 'index'])->name('relacje.relacje');
-        Route::post('/relacje/list/zapisz', [App\Http\Controllers\RelacjaController::class, 'store'])->name('relacje.store');
-        Route::get('/relacje/list/edytuj/{id}', [App\Http\Controllers\RelacjaController::class, 'edit'])->name('relacje.edit');
-        Route::put('/relacje/list/zmien/{id}', [App\Http\Controllers\RelacjaController::class, 'update'])->name('relacje.update');
-        Route::get('/relacje/list/usun/{id}', [App\Http\Controllers\RelacjaController::class, 'delete'])->name('relacje.delete');
-
         Route::get('/cennik/list', [App\Http\Controllers\CennikController::class, 'index'])->name('cennik.cennik');
         Route::post('/cennik/list/zapisz', [App\Http\Controllers\CennikController::class, 'store'])->name('cennik.store');
         Route::get('/cennik/list/edytuj/{id}', [App\Http\Controllers\CennikController::class, 'edit'])->name('cennik.edit');
@@ -80,6 +66,14 @@ Auth::routes();
         Route::get('/użytkownicy/list/edytuj/{id}', [App\Http\Controllers\UserController::class, 'edit'])->name('users.edit');
         Route::put('/użytkownicy/list/zmien/{id}', [App\Http\Controllers\UserController::class, 'update'])->name('users.update');
         Route::get('/użytkownicy/list/usun/{id}', [App\Http\Controllers\UserController::class, 'delete'])->name('users.delete');
+
+
+
+        Route::get('/zwierzeta/list', [App\Http\Controllers\ZwierzeController::class, 'index'])->name('zwierzes.index');
+        Route::post('/zwierzeta/list/zapisz', [App\Http\Controllers\ZwierzeController::class, 'store'])->name('zwierzes.store');
+        Route::get('/zwierzeta/list/edytuj/{id}', [App\Http\Controllers\ZwierzeController::class, 'edit'])->name('zwierzes.edit');
+        Route::put('/zwierzeta/list/zmien/{id}', [App\Http\Controllers\ZwierzeController::class, 'update'])->name('zwierzes.update');
+        Route::get('/zwierzeta/list/usun/{id}', [App\Http\Controllers\ZwierzeController::class, 'delete'])->name('zwierzes.delete');
 
     });
 

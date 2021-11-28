@@ -4,7 +4,7 @@
 
 
     <div class="masthead">
-2
+
 
         @if(session()->has('message'))
             <div class="container">

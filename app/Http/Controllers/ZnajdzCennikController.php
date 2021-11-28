@@ -2,9 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Konduktor;
 use App\Models\Cennik;
-use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\Request;
 
 class ZnajdzCennikController extends Controller

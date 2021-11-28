@@ -6,7 +6,7 @@
     <div class="form-v8-content">
         <a href="/">
             <div class="form-left">
-                <img src="/login_assets/foto/form-v8.jpg" alt="form">
+                <img src="/login_assets/foto/form-v8.png" alt="form">
             </div>
         </a>
         <div class="form-right">

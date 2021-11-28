@@ -2,12 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\User;
-use App\Models\Relacje;
-use Illuminate\Database\Eloquent\Model;
+use App\Models\Zwierze;
 use Illuminate\Http\Request;
 
-class Bilet_listaController extends Controller
+class ZwierzeController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,9 +14,8 @@ class Bilet_listaController extends Controller
      */
     public function index()
     {
-        return view('bilet.lista_bilet',[
-            'relacjes' => Relacje::all(),
-            'users' => User::all()
+        return view('zwierzeta.zwierze',[
+            'zwierzes' => Zwierze::all()
         ]);
     }
 
@@ -29,18 +26,26 @@ class Bilet_listaController extends Controller
      */
     public function create()
     {
-        //
+        return view('zwierzes.index');
     }
 
     /**
      * Store a newly created resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\RedirectResponse
+     * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
     {
-        //
+        $zwierze = new Zwierze();
+
+        $zwierze->name = $request->name;
+        $zwierze->rasa = $request->rasa;
+        $zwierze->plec = $request->plec;
+
+        $zwierze->save();
+
+        return redirect()->route('zwierzes.store');
     }
 
     /**
@@ -58,11 +63,13 @@ class Bilet_listaController extends Controller
      * Show the form for editing the specified resource.
      *
      * @param  int  $id
-     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View|\Illuminate\Http\Response
+     * @return \Illuminate\Http\Response
      */
     public function edit($id)
     {
-        //
+        $zwierze = Zwierze::find($id);
+
+        return view('zwierzes.edit', ['zwierze'=>$zwierze]);
     }
 
     /**
@@ -70,11 +77,19 @@ class Bilet_listaController extends Controller
      *
      * @param  \Illuminate\Http\Request  $request
      * @param  int  $id
-     * @return \Illuminate\Http\RedirectResponse
+     * @return \Illuminate\Http\Response
      */
     public function update(Request $request, $id)
     {
-       //
+        $zwierze = Zwierze::find($id);
+
+        $zwierze->name = $request->name;
+        $zwierze->surname = $request->surname;
+        $zwierze->email = $request->email;
+
+        $zwierze->save();
+
+        return redirect()->route('zwierzes.index')->with('message', 'Zwierze zostało edytowane pomyślnie');
     }
 
     /**
@@ -85,6 +100,8 @@ class Bilet_listaController extends Controller
      */
     public function delete($id)
     {
-        //
+        Zwierze::destroy($id);
+
+        return redirect()->route('zwierzes.index')->with('message', 'Zwierze zostało usunięte pomyślnie');
     }
 }
